@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    flex:20%;
+    margin-left: 10%;
+    /* border: 1px solid #ff0000; */
+    text-align: left;
+}
+
+.logo h1{
+    font-family: "Lobster", sans-serif;
+    color:#971616;
+    font-size:34px;
+}
+
+.menu{
+    flex:70%;
+    /* border:1px solid rgb(12, 192, 21); */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #971616;
+    text-decoration: none;
+    font-size: 20px;
+    padding:20px 16px;
+}
+
+.menu a:hover{
+    color:blue;
+    border-top:4px solid;
+}
+
+#botao{
+    background-color: #921717;
+    padding: 10px 25px;
+    color: white;
+    border-radius:5px;
+    margin-right:10%;
+    margin-left:5%;
+}
+
+#botao:hover{
+    border:none;
+    background-color: #ff0000;
+}
+
+.titulopeito{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    margin-top: 3%;
+    font-size: 50px;
+    color: #921717;
+    
+}
+
+
+.modeloTreinoPeito{
+    display: inline-block;
+    margin-top: -2%;
+    /* border: 1px solid black; */
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    border: 2px solid #921717;
+    border-radius: 5%;
+    background-color: rgba(194, 236, 238, 0.651);
+}
+
+.voltarhome{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    
+}

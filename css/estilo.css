@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 1px solid black; */
+}
+
+.logo{
+    flex:20%;
+    margin-left: 10%;
+    /* border: 1px solid #ff0000; */
+    text-align: left;
+}
+
+.logo h1{
+    font-family: "Lobster", sans-serif;
+    color:#971616;
+    font-size:34px;
+}
+
+.menu{
+    flex:70%;
+    /* border:1px solid rgb(12, 192, 21); */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #971616;
+    text-decoration: none;
+    font-size: 20px;
+    padding:20px 16px;
+}
+
+.menu a:hover{
+    color:blue;
+    border-top:4px solid;
+}
+
+#botao{
+    background-color: rgb(146, 23, 23);
+    padding: 10px 25px;
+    color: white;
+    border-radius:5px;
+    margin-right:10%;
+    margin-left:5%;
+}
+
+#botao:hover{
+    border:none;
+    background-color: #ff0000;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* height: 600px; */
+    background-color: rgb(255, 255, 255);
+}
+
+.headline{
+    margin-left:10%;
+    flex:40%;
+    /* border:1px solid rgb(0, 0, 0); */
+}
+
+.headline p{
+    color: rgb(78, 78, 78)
+
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color:#971616;
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline{
+    margin-right:10%;
+    flex:40%;
+    /* border: 1px solid rgb(146, 4, 115); */
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid #00008b; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    color: #971616;
+}
+
+.treinos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 22%;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid #971616;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover{
+    display: inline-block;
+    width: 22%;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid #00008b;
+    background-color: #00008b;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
